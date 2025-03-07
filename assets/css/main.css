@@ -18,11 +18,11 @@
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
+:root {
+  --background-color: #283048; /* Background color for the entire website, including individual sections */
+  --default-color: #ffffff; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #37517e; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #47b2e4; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #00B4FF; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -40,7 +40,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f5f6f8;
+  --background-color:#1f2a49; /* BG-COLOR FOR COLUMN*/
   --surface-color: #ffffff;
 }
 
@@ -83,7 +83,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: #ffffff(--heading-color);
   font-family: var(--heading-font);
 }
 
@@ -1065,7 +1065,7 @@ section,
 }
 
 .why-us .faq-container .faq-item {
-  background-color: var(--surface-color);
+  background-color: #283048;
   position: relative;
   padding: 20px;
   margin-bottom: 20px;
@@ -1222,7 +1222,7 @@ section,
 # Services Section
 --------------------------------------------------------------*/
 .services .service-item {
-  background-color: var(--surface-color);
+  background-color: #37517e; /*Service BG-COLOR*/
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
@@ -1246,7 +1246,7 @@ section,
 }
 
 .services .service-item h4 a {
-  color: var(--heading-color);
+  color: #ffffff;
   transition: ease-in-out 0.3s;
 }
 
@@ -1575,7 +1575,7 @@ section,
 # Team Section
 --------------------------------------------------------------*/
 .team .team-member {
-  background-color: var(--surface-color);
+  background-color: #1f2a49;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   position: relative;
   border-radius: 5px;
@@ -2156,7 +2156,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-wrap {
-  background-color: var(--surface-color);
+  background-color: #1f2a49;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-top: 3px solid var(--accent-color);
   border-bottom: 3px solid var(--accent-color);
@@ -2207,7 +2207,7 @@ section,
 }
 
 .contact .php-email-form {
-  background-color: var(--surface-color);
+  background-color: #1f2a49;
   height: 100%;
   padding: 30px;
   border-top: 3px solid var(--accent-color);
